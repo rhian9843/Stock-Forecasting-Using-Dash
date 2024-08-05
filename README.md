@@ -1,18 +1,19 @@
-# STOCKS-FORECASTING-USING-DASH
-----------------------------------------------------------------------------------------------------------------------------------------
 
-A simple dash app which produces dynamic plots of the closing prices and exponential moving average of user input stock code. In addition to that, We have used a machine learning model (SVR) to give prediction of the closing stock price for n number of user input days.
+# Stock Forecasting using Dash
 
+Created an interactive Dash app to visualize dynamic plots of closing prices and exponential moving averages for user-specified stock codes.
 
---> app.py contains web layout and server function. We will be referring to it as our main file.
+Integrated a Support Vector Regression (SVR) model to predict closing stock prices for a user-defined number of future days.
 
--->model.py is where we will implement a machine learning model for forecasting the stock price.
-
--->style.css is the css file for styling the web app.
-
--->requirements.txt is correct versions of the required Python packages to run the Python code.
+Enhanced user experience with a real-time, user-friendly interface for accurate stock forecasting and analysis.
 
 
+## Project Structure
 
+1) app.py contains web layout and server function. We will be referring to it as our main file.
 
+2) model.py is where we will implement a machine learning model for forecasting the stock price.
 
+3) style.css is the css file for styling the web app.
+
+4) requirements.txt is correct versions of the required Python packages to run the Python code.
